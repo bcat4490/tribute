@@ -22,8 +22,6 @@ strong {
     align-items: center;
     padding: 20px 10px;
     border-radius: 10px;
-    
-    
 }
 
 #title {
@@ -38,29 +36,28 @@ div#title  h1 {
     font-size: 5em; 
 }
 
-#img-div {
+#img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: white;
+    border-radius: 10px;
+}
+
+#img-div {
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px 7px;
-    border-radius: 10px;
+    
     
 }
 
 #image {
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
-    
-}
-
-@media  only screen and (max-width: 400px) {
-
-    #image {
-        max-width: 250px;
-        height:auto;
-    }
     
 }
 
