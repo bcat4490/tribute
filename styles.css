@@ -5,7 +5,8 @@ html, body {
 
 body {
     background-color: white;
-    padding: 5px;
+    padding: 7px;
+    
 }
 
 #main {
@@ -14,21 +15,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 5px 5px 5px;
+    
     
 }
 
 #title {
-    width: 98%;
     display: flex;
     justify-content: center;
+    padding: 20px;
+}
+
+div#title  h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 5em; 
 }
 
 #img-div {
-    width: 98%;
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;;
     
 }
 
