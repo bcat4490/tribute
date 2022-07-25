@@ -6,6 +6,7 @@ html, body {
 body {
     background-color: white;
     padding: 20px 7px;
+    line-height: 1.5;
     
 }
 
@@ -32,7 +33,7 @@ strong {
 }
 
 div#title  h1 {
-    font-family: 'Monsieur La Doulaise', cursive;
+    font-family: 'Tangerine', cursive;
     font-size: 5em; 
 }
 
@@ -62,8 +63,8 @@ div#title  h1 {
     
 }
 
-#img-caption {
-    padding-top: 20px;
+#img-container figcaption {
+    margin-top: 20px;
 }
 
 h2 {
